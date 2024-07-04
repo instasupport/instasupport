@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body{
+    background-color: #eefdff;
+}
+
+.information{
+    margin-top: 60px;
+    padding: 0px 10px;
+}
+
+.information h2{
+    margin-top: 8px;
+}
+
+.information p{
+    margin-top: 10px;
+}
+
+.forminput{
+    margin-top: 20px;
+    padding: 0px 5px;
+}
+
+.forminput form .inputinfo{
+    margin-top: 10px;
+    width: 320px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px solid #c4c4c4;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.forminput form .forgot{
+    margin-top: 15px;
+}
+
+.forminput form .forgot .forgoting a{
+    font-size: 16px;
+    color: #5252ff;
+    padding: 0px 5px;
+}
+
+.forminput form .checking{
+    margin-top: 10px;
+}
+
+.btn button{
+    position: absolute;
+    bottom: 20px;
+    width: 330px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: #5e5eff;
+    color: #ffffff;
+    font-size: 16px;
+
+}
